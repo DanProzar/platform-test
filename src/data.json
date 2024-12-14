@@ -1,0 +1,63 @@
+{
+  "data": {
+    "totals": {
+      "engines": 345,
+      "immediate_faults": 17,
+      "critical_predictive_insights": 3
+    },
+    "diagnostics": {
+      "totals": {
+        "engines": 322
+      },
+      "severity": {
+        "immediate": {
+          "derated": 8,
+          "shutdown": 6,
+          "total": 17
+        },
+        "service_3_days": {
+          "derated": 15,
+          "shutdown": 1,
+          "total": 42
+        },
+        "service_7_days": {
+          "derated": 6,
+          "shutdown": 0,
+          "total": 120
+        },
+        "service_next_pm": {
+          "derated": 0,
+          "shutdown": 0,
+          "total": 250
+        }
+      }
+    },
+    "prognostics": {
+      "totals": {
+        "engines": 150
+      },    
+      "time_remaining": {
+        "less_than_7_days": {
+          "prognostic": 7,
+          "maintenance": 12,
+          "total": 19
+        },
+        "less_than_30_days": {
+          "prognostic": 4,
+          "maintenance": 5,
+          "total": 9
+        },
+        "less_than_60_days": {
+          "prognostic": 1,
+          "maintenance": 2,
+          "total": 3
+        },
+        "less_than_90_days": {
+          "prognostic": 4,
+          "maintenance": 0,
+          "total": 4
+        }
+      }
+    }
+  }
+}

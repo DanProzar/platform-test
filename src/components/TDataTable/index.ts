@@ -1,0 +1,1 @@
+export { default as TDataTable } from './TDataTable.vue'
